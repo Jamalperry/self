@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-	border-bottom: 2px solid white;
+	border-bottom: 1px solid lightgrey;
 	padding: 5px;
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 .jumbotron {
-	background: linear-gradient(to right, #E1BEE7, white, #E1BEE7);
+	background: linear-gradient(to right, #F3E5F5, white, #F3E5F5);
 }
 
 .self1 {
@@ -36,6 +36,12 @@ a {
 	border: 1px solid white;
 }
 
+.btn {
+	background-color: white;
+	color: #EA80FC;
+	border: 1px solid purple;
+	margin: 8px;
+}
 
 
 .scale {
@@ -56,3 +62,38 @@ a {
 	border-radius: 5px;
 	transform: scale(0.5, 0.5);
 }
+
+.img1 {
+	width: 180px;
+	height: 180px;
+	border-radius: 8px;
+	float: left;
+}
+
+.img2 {
+	width: 180px;
+	height: 180px;
+	border-radius: 8px;
+	float: right;
+}
+
+.panel .panel-body .con {
+	color: white;
+	background: linear-gradient(#E040FB,  #E040FB, white);
+	padding: 5px;
+	border-radius: 9px;
+}
+
+.panel .panel-body .con2 {
+	color: grey;
+	background: linear-gradient(white, white, #EDE7F6);
+	padding: 5px;
+	border-radius: 9px;
+	margin-bottom: 10px;
+}
+
+.con2 ol li {
+	font-size: 19px;
+	font-weight: initial;
+}
+	
