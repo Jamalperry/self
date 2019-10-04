@@ -1,0 +1,7 @@
+function myFunction() {
+	document.getElementById("repo1").innerHTML = "[looking away from all that will distract us and] focusing our eyes on Jesus, who is the Author and Perfecter of faith [the first incentive for our belief and the One who brings our faith to maturity], who for the joy [of accomplishing the goal] set before Him endured the cross, disregarding the shame, and sat down at the right hand of the throne of God [revealing His deity, His authority, and the completion of His work]. Just consider and meditate on Him who endured from sinners such bitter hostility against Himself [consider it all in comparison with your trials], so that you will not grow weary and lose heart.";
+}
+
+function myFunction1() {
+	document.getElementById("repo2").innerHTML = "Brothers and sisters, I do not consider that I have made it my own yet; but one thing I do: forgetting what lies behind and reaching forward to what lies ahead, I press on toward the goal to win the [heavenly] prize of the upward call of God in Christ Jesus. All of us who are mature [pursuing spiritual perfection] should have this attitude. And if in any respect you have a different attitude, that too God will make clear to you. Only let us stay true to what we have already attained.";
+}

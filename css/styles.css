@@ -7,10 +7,22 @@ h1 {
 	color: #E040FB;
 }
 
-h2 {
+#sg {
+	color: inherit;
 	border-bottom: 1px solid lightgrey;
 	padding: 5px;
+	word-spacing: 3px;
+	margin-top: 80px;
+	font-family: 'Georgia', serif;
 }
+
+h3 {
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #E040FB;
+	font-size: 29px;
+}
+	
 
 p6 {
 	margin: 10px;
@@ -22,6 +34,42 @@ b {
 
 a {
 	color: #EA80FC;
+	transform: (1, 0.5);
+}
+
+table {
+	width: 100%; 
+	border-collapse: collapse;
+}
+
+table tr th {
+	color: purple;
+	letter-spacing: 5px;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	padding: 4px;
+	line-height: 9px;
+	border: 1px solid lightgrey;
+	border-radius: 9px;
+}
+
+tr th, tr td {
+	padding: 5px;
+	border: 1px solid #F3E5F5;
+}
+
+table tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+table tr:nth-child(2) {
+	color: green;
+}
+
+.panel panel-heading h2 {
+	color: purple;
+	text-decoration: none;
 }
 
 .jumbotron {
@@ -63,11 +111,25 @@ a {
 	transform: scale(0.5, 0.5);
 }
 
+.imgsg {
+	width: 30px;
+	height: 30px;
+	display: inline;
+}
+
 .img1 {
 	width: 180px;
 	height: 180px;
 	border-radius: 8px;
 	float: left;
+}
+
+.img01 {
+	width: 180px;
+	height: 180px;
+	border-radius: 8px;
+	float: left;
+	transform: (0.5, 0.5);
 }
 
 .img2 {
@@ -95,5 +157,13 @@ a {
 .con2 ol li {
 	font-size: 19px;
 	font-weight: initial;
+}
+
+.temp1 {
+	background: linear-gradient(rgba(168, 0, 214, 0.5), white 50%, rgba(224, 64, 251,0.5));
+	padding: 12px;
+	margin: 9px;
+	border: 1px solid rgba(224, 64, 251,0.5);
+	border-radius: 8px;
 }
 	
